@@ -3,8 +3,8 @@
 <h3><code>THARUN@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="./TT-ascii.svg?v=5" height="400" /></td>
-    <td valign="top"><img src="./wordmark.svg?v=5" height="400" /></td>
+    <td valign="top"><img src="./TT-ascii-1.svg" height="400" /></td>
+    <td valign="top"><img src="./wordmark-1.svg" height="400" /></td>
   </tr>
 </table>
 

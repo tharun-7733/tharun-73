@@ -9,7 +9,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "source-prepped.png"
-OUT = ROOT / "TT-ascii.svg"
+OUT = ROOT / "TT-ascii-1.svg"
 
 RAMP = " .`:-=+*cs#%@"      # bright (sparse) -> dark (dense); leading space = blank
 COLS = 75                  # characters per row

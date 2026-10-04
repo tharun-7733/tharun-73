@@ -4,7 +4,7 @@ from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "wordmark.svg"
+OUT = ROOT / "wordmark-1.svg"
 
 def main():
     # Generate ASCII art
@@ -32,7 +32,7 @@ def main():
     
     import xml.etree.ElementTree as ET
     try:
-        tree = ET.parse(ROOT / "TT-ascii.svg")
+        tree = ET.parse(ROOT / "TT-ascii-1.svg")
         root_svg = tree.getroot()
         H = float(root_svg.attrib["height"])
     except Exception:
