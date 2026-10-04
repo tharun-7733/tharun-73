@@ -41,9 +41,8 @@ def main() -> None:
             chars.append(" " if d < THRESHOLD else RAMP[min(int(d * len(RAMP)), len(RAMP) - 1)])
         lines.append("".join(chars).rstrip())
 
-    BAR_H = 34
     width = COLS * CELL_W + 2 * PAD
-    height = rows * CELL_H + 2 * PAD + BAR_H
+    height = rows * CELL_H + 2 * PAD
 
     defs, body = [], []
     for i, line in enumerate(lines):
@@ -73,14 +72,8 @@ def main() -> None:
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width:.0f} {height:.0f}" '
         f'width="{width:.0f}" height="{height:.0f}">\n'
         f'<rect width="100%" height="100%" rx="10" fill="{BG}"/>\n'
-        f'<path d="M0 10a10 10 0 0 1 10-10h{width-20:.0f}a10 10 0 0 1 10 10v{BAR_H-10}H0z" fill="#161b22"/>\n'
-        f'<circle cx="20" cy="{BAR_H/2}" r="6" fill="#ff5f56"/>\n'
-        f'<circle cx="40" cy="{BAR_H/2}" r="6" fill="#ffbd2e"/>\n'
-        f'<circle cx="60" cy="{BAR_H/2}" r="6" fill="#27c93f"/>\n'
-        f'<text x="{width/2:.0f}" y="{BAR_H/2+4}" text-anchor="middle" fill="#8b949e" '
-        f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12">TT@github: ~$ ./portrait.sh</text>\n'
         f'<defs>{"".join(defs)}</defs>\n'
-        f'<g transform="translate({PAD},{PAD + BAR_H})" fill="{FILL}" '
+        f'<g transform="translate({PAD},{PAD})" fill="{FILL}" '
         f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,\'Courier New\',monospace" '
         f'font-size="{FONT_SIZE}">\n' + "\n".join(body) + "\n</g>\n</svg>\n"
     )
