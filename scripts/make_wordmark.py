@@ -8,18 +8,13 @@ OUT = ROOT / "wordmark.svg"
 
 def main():
     # Generate ASCII art
-    f = pyfiglet.Figlet(font='isometric1') # Or 'slant' or '3d' - actually the picture shows a slanted blocky font.
-    # The font in the picture looks like 'starwars' or 'slant' or 'speed'. Let's try 'speed' or 'slant'.
-    # Actually, the picture has:
-    #   cSSSSSSSS     +*SSSSS   CCSSSSSS  *+CCCCC
-    # This looks like the 'larry3d' or '3d' or 'isometric' font. Let's just use 'slant' or 'starwars'. 
-    # Or even better, a generic blocky font. Let's use 'slant'.
+    f = pyfiglet.Figlet(font='slant')
     
-    text = pyfiglet.figlet_format("THARUN\nTEJA", font="slant")
-    lines = text.split('\n')
-    # strip empty lines at the end
-    while lines and not lines[-1].strip():
-        lines.pop()
+    lines1 = pyfiglet.figlet_format("THARUN", font="slant").split('\n')
+    while lines1 and not lines1[-1].strip(): lines1.pop()
+        
+    lines2 = pyfiglet.figlet_format("TEJA", font="slant").split('\n')
+    while lines2 and not lines2[-1].strip(): lines2.pop()
 
     W = 490
     BAR_H = 34
@@ -28,11 +23,13 @@ def main():
     CELL_W = 7
     CELL_H = 14
     FONT = 12
-    max_len = max(len(l) for l in lines) if lines else 0
-    text_width = max_len * CELL_W
-    text_height = len(lines) * CELL_H
     
-    # We want it to fit in the window nicely, center it.
+    width1 = (max(len(l) for l in lines1) if lines1 else 0) * CELL_W
+    height1 = len(lines1) * CELL_H
+    
+    width2 = (max(len(l) for l in lines2) if lines2 else 0) * CELL_W
+    height2 = len(lines2) * CELL_H
+    
     H = 773
     
     C = dict(bg="#0d1117", bar="#161b22", text="#c9d1d9", dim="#8b949e")
@@ -49,13 +46,21 @@ def main():
         f'<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,\'Courier New\',monospace" font-size="{FONT}" fill="{C["text"]}">',
     ]
     
-    start_y = BAR_H + (H - BAR_H - text_height) / 2
-    start_x = (W - text_width) / 2
-    if start_x < 20: start_x = 20
+    avail_h = H - BAR_H
     
-    for i, line in enumerate(lines):
-        y = start_y + i * CELL_H
-        out.append(f'<text x="{start_x}" y="{y}" xml:space="preserve" style="white-space:pre;">{escape(line)}</text>')
+    # Position THARUN in the upper half
+    start_y1 = BAR_H + (avail_h / 2 - height1) / 2
+    start_x1 = max(20, (W - width1) / 2)
+    for i, line in enumerate(lines1):
+        y = start_y1 + i * CELL_H
+        out.append(f'<text x="{start_x1}" y="{y}" xml:space="preserve" style="white-space:pre;">{escape(line)}</text>')
+
+    # Position TEJA in the lower half
+    start_y2 = BAR_H + avail_h / 2 + (avail_h / 2 - height2) / 2
+    start_x2 = max(20, (W - width2) / 2)
+    for i, line in enumerate(lines2):
+        y = start_y2 + i * CELL_H
+        out.append(f'<text x="{start_x2}" y="{y}" xml:space="preserve" style="white-space:pre;">{escape(line)}</text>')
 
     out += ["</g>", "</svg>", ""]
     OUT.write_text("\n".join(out), encoding="utf-8")

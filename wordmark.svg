@@ -6,16 +6,15 @@
 <circle cx="60" cy="17.0" r="6" fill="#27c93f"/>
 <text x="245.0" y="21.0" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12">THARUN@github: ~$ ./wordmark.sh --3d</text>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Courier New',monospace" font-size="12" fill="#c9d1d9">
-<text x="108.5" y="326.5" xml:space="preserve" style="white-space:pre;">  ________  _____    ____  __  ___   __</text>
-<text x="108.5" y="340.5" xml:space="preserve" style="white-space:pre;"> /_  __/ / / /   |  / __ \/ / / / | / /</text>
-<text x="108.5" y="354.5" xml:space="preserve" style="white-space:pre;">  / / / /_/ / /| | / /_/ / / / /  |/ / </text>
-<text x="108.5" y="368.5" xml:space="preserve" style="white-space:pre;"> / / / __  / ___ |/ _, _/ /_/ / /|  /  </text>
-<text x="108.5" y="382.5" xml:space="preserve" style="white-space:pre;">/_/ /_/ /_/_/  |_/_/ |_|\____/_/ |_/   </text>
-<text x="108.5" y="396.5" xml:space="preserve" style="white-space:pre;">                                       </text>
-<text x="108.5" y="410.5" xml:space="preserve" style="white-space:pre;">  ____________    _____ </text>
-<text x="108.5" y="424.5" xml:space="preserve" style="white-space:pre;"> /_  __/ ____/   / /   |</text>
-<text x="108.5" y="438.5" xml:space="preserve" style="white-space:pre;">  / / / __/ __  / / /| |</text>
-<text x="108.5" y="452.5" xml:space="preserve" style="white-space:pre;"> / / / /___/ /_/ / ___ |</text>
-<text x="108.5" y="466.5" xml:space="preserve" style="white-space:pre;">/_/ /_____/\____/_/  |_|</text>
+<text x="108.5" y="183.75" xml:space="preserve" style="white-space:pre;">  ________  _____    ____  __  ___   __</text>
+<text x="108.5" y="197.75" xml:space="preserve" style="white-space:pre;"> /_  __/ / / /   |  / __ \/ / / / | / /</text>
+<text x="108.5" y="211.75" xml:space="preserve" style="white-space:pre;">  / / / /_/ / /| | / /_/ / / / /  |/ / </text>
+<text x="108.5" y="225.75" xml:space="preserve" style="white-space:pre;"> / / / __  / ___ |/ _, _/ /_/ / /|  /  </text>
+<text x="108.5" y="239.75" xml:space="preserve" style="white-space:pre;">/_/ /_/ /_/_/  |_/_/ |_|\____/_/ |_/   </text>
+<text x="161.0" y="553.25" xml:space="preserve" style="white-space:pre;">  ____________    _____ </text>
+<text x="161.0" y="567.25" xml:space="preserve" style="white-space:pre;"> /_  __/ ____/   / /   |</text>
+<text x="161.0" y="581.25" xml:space="preserve" style="white-space:pre;">  / / / __/ __  / / /| |</text>
+<text x="161.0" y="595.25" xml:space="preserve" style="white-space:pre;"> / / / /___/ /_/ / ___ |</text>
+<text x="161.0" y="609.25" xml:space="preserve" style="white-space:pre;">/_/ /_____/\____/_/  |_|</text>
 </g>
 </svg>
