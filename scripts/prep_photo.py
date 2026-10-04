@@ -35,7 +35,7 @@ def main(src: str, out: str | None = None) -> None:
     alpha = alpha[y0:y1, x0:x1]
 
     gray = cv2.cvtColor(rgba[..., :3], cv2.COLOR_RGB2GRAY)
-    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+    clahe = cv2.createCLAHE(clipLimit=1.5, tileGridSize=(8, 8))
     gray = clahe.apply(gray).astype(np.float32)
 
     comp = gray * alpha + 255.0 * (1.0 - alpha)      # background -> white
