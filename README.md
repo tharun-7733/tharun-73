@@ -17,10 +17,10 @@
 
 <h3><code>THARUN@github ~ $ ./links.sh</code></h3>
 <p align="center">
-  <b>Fullstack Developer • AI Builder • Instructor</b><br><br>
+  <b> AI/ML Engineer • Software Developer • Android Developer </b><br><br>
   <a href="http://tharunportfolio.me/"><img src="https://img.shields.io/badge/PORTFOLIO-THARUNPORTFOLIO.ME-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=555555" /></a>
   <a href="http://linkedin.com/in/tharun-teja-o7"><img src="https://img.shields.io/badge/LINKEDIN-THARUN_TEJA-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=555555" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/LIVE_TERMINAL-THARUN.GITHUB.IO-00E5FF?style=for-the-badge&logo=gnometerminal&logoColor=white&labelColor=555555" /></a>
+  <a href="https://leetcode.com/u/tharun_73/"><img src="https://img.shields.io/badge/LEETCODE-THARUN__73-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=555555" /></a>
 </p>
 
 </div>
