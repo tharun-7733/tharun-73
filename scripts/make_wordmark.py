@@ -4,7 +4,7 @@ from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "wordmark-1.svg"
+OUT = ROOT / "wordmark-2.svg"
 
 def main():
     # Generate ASCII art
@@ -53,16 +53,18 @@ def main():
     ]
     
     avail_h = H - BAR_H
+    GAP = 40
+    total_height = height1 + GAP + height2
     
-    # Position THARUN in the upper half
-    start_y1 = BAR_H + (avail_h / 2 - height1) / 2
+    # Position THARUN
+    start_y1 = BAR_H + (avail_h - total_height) / 2
     start_x1 = max(20, (W - width1) / 2)
     for i, line in enumerate(lines1):
         y = start_y1 + i * CELL_H
         out.append(f'<text x="{start_x1}" y="{y}" xml:space="preserve" style="white-space:pre;">{escape(line)}</text>')
 
-    # Position TEJA in the lower half
-    start_y2 = BAR_H + avail_h / 2 + (avail_h / 2 - height2) / 2
+    # Position TEJA
+    start_y2 = start_y1 + height1 + GAP
     start_x2 = max(20, (W - width2) / 2)
     for i, line in enumerate(lines2):
         y = start_y2 + i * CELL_H

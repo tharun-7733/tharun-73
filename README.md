@@ -4,7 +4,7 @@
 <table>
   <tr>
     <td valign="top"><img src="./TT-ascii-1.svg" height="400" /></td>
-    <td valign="top"><img src="./wordmark-1.svg" height="400" /></td>
+    <td valign="top"><img src="./wordmark-2.svg" height="400" /></td>
   </tr>
 </table>
 
