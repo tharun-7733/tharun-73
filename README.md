@@ -18,9 +18,8 @@
 <h3><code>THARUN@github ~ $ ./links.sh</code></h3>
 <p align="center">
   <b>Fullstack Developer • AI Builder • Instructor</b><br><br>
-  <a href="#"><img src="https://img.shields.io/badge/PORTFOLIO-THARUN.COM-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=555555" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/LINKEDIN-THARUN-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=555555" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/INSTAGRAM-THARUN-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=555555" /></a><br><br>
+  <a href="http://tharunportfolio.me/"><img src="https://img.shields.io/badge/PORTFOLIO-THARUNPORTFOLIO.ME-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=555555" /></a>
+  <a href="http://linkedin.com/in/tharun-teja-o7"><img src="https://img.shields.io/badge/LINKEDIN-THARUN_TEJA-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=555555" /></a>
   <a href="#"><img src="https://img.shields.io/badge/LIVE_TERMINAL-THARUN.GITHUB.IO-00E5FF?style=for-the-badge&logo=gnometerminal&logoColor=white&labelColor=555555" /></a>
 </p>
 
