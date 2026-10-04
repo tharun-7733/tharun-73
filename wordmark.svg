@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" width="490" height="300">
+<rect width="490" height="300" rx="10" fill="#0d1117"/>
+<path d="M0 10a10 10 0 0 1 10-10h470a10 10 0 0 1 10 10v24H0z" fill="#161b22"/>
+<circle cx="20" cy="17.0" r="6" fill="#ff5f56"/>
+<circle cx="40" cy="17.0" r="6" fill="#ffbd2e"/>
+<circle cx="60" cy="17.0" r="6" fill="#27c93f"/>
+<text x="245.0" y="21.0" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12">THARUN@github: ~$ ./wordmark.sh --3d</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Courier New',monospace" font-size="12" fill="#c9d1d9">
+<text x="108.5" y="74" xml:space="preserve" style="white-space:pre;">  ________  _____    ____  __  ___   __</text>
+<text x="108.5" y="88" xml:space="preserve" style="white-space:pre;"> /_  __/ / / /   |  / __ \/ / / / | / /</text>
+<text x="108.5" y="102" xml:space="preserve" style="white-space:pre;">  / / / /_/ / /| | / /_/ / / / /  |/ / </text>
+<text x="108.5" y="116" xml:space="preserve" style="white-space:pre;"> / / / __  / ___ |/ _, _/ /_/ / /|  /  </text>
+<text x="108.5" y="130" xml:space="preserve" style="white-space:pre;">/_/ /_/ /_/_/  |_/_/ |_|\____/_/ |_/   </text>
+</g>
+</svg>
