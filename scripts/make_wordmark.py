@@ -33,7 +33,7 @@ def main():
     text_height = len(lines) * CELL_H
     
     # We want it to fit in the window nicely, center it.
-    H = max(300, text_height + 100 + BAR_H)
+    H = 773
     
     C = dict(bg="#0d1117", bar="#161b22", text="#c9d1d9", dim="#8b949e")
 
@@ -49,7 +49,7 @@ def main():
         f'<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,\'Courier New\',monospace" font-size="{FONT}" fill="{C["text"]}">',
     ]
     
-    start_y = BAR_H + 40
+    start_y = BAR_H + (H - BAR_H - text_height) / 2
     start_x = (W - text_width) / 2
     if start_x < 20: start_x = 20
     

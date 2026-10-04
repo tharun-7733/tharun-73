@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "contributions.json"
-DEFAULT_USER = "YOUR_GITHUB_USERNAME"      # <-- change me (or set $GH_USER)
+DEFAULT_USER = "tharun-7733"      # <-- change me (or set $GH_USER)
 
 
 def fetch(user: str) -> list[dict]:
