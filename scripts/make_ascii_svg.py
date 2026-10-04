@@ -12,7 +12,7 @@ SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "source-prepped.png"
 OUT = ROOT / "TT-ascii.svg"
 
 RAMP = " .`:-=+*cs#%@"      # bright (sparse) -> dark (dense); leading space = blank
-COLS = 100                  # characters per row
+COLS = 75                  # characters per row
 CELL_W, CELL_H = 6.0, 11.0  # character cell size in px
 FONT_SIZE = 10
 FILL = "#c9d1d9"            # one light-gray colour (monochrome)

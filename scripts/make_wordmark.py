@@ -30,7 +30,13 @@ def main():
     width2 = (max(len(l) for l in lines2) if lines2 else 0) * CELL_W
     height2 = len(lines2) * CELL_H
     
-    H = 773
+    import xml.etree.ElementTree as ET
+    try:
+        tree = ET.parse(ROOT / "TT-ascii.svg")
+        root_svg = tree.getroot()
+        H = float(root_svg.attrib["height"])
+    except Exception:
+        H = 773
     
     C = dict(bg="#0d1117", bar="#161b22", text="#c9d1d9", dim="#8b949e")
 
