@@ -3,15 +3,15 @@
 <h3><code>THARUN@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="./TT-ascii.svg" height="400" /></td>
-    <td valign="top"><img src="./wordmark.svg" height="400" /></td>
+    <td valign="top"><img src="./TT-ascii.svg?v=3" height="400" /></td>
+    <td valign="top"><img src="./wordmark.svg?v=3" height="400" /></td>
   </tr>
 </table>
 
 <br><br>
 
 <h3><code>THARUN@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" />
+<img src="./contrib-heatmap.svg?v=3" width="860" />
 
 <br><br>
 
