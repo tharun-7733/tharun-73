@@ -15,7 +15,7 @@ def main():
     # This looks like the 'larry3d' or '3d' or 'isometric' font. Let's just use 'slant' or 'starwars'. 
     # Or even better, a generic blocky font. Let's use 'slant'.
     
-    text = pyfiglet.figlet_format("THARUN", font="slant")
+    text = pyfiglet.figlet_format("THARUN\nTEJA", font="slant")
     lines = text.split('\n')
     # strip empty lines at the end
     while lines and not lines[-1].strip():
