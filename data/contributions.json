@@ -2,41 +2,6 @@
  "user": "tharun-7733",
  "days": [
   {
-   "date": "2025-10-05",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-06",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-07",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-08",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-09",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-10",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-11",
-   "level": 0,
-   "count": 0
-  },
-  {
    "date": "2025-10-12",
    "level": 0,
    "count": 0
@@ -1853,13 +1818,18 @@
   },
   {
    "date": "2026-10-10",
-   "level": 0,
-   "count": 0
+   "level": 1,
+   "count": 1
+  },
+  {
+   "date": "2026-10-11",
+   "level": 1,
+   "count": 4
   }
  ],
  "stats": {
-  "total": 849,
-  "current_streak": 7,
+  "total": 854,
+  "current_streak": 9,
   "longest_streak": 23,
   "best_day": {
    "date": "2026-06-13",
@@ -1878,7 +1848,7 @@
    "2026-07": 211,
    "2026-08": 88,
    "2026-09": 60,
-   "2026-10": 40
+   "2026-10": 45
   }
  }
 }
